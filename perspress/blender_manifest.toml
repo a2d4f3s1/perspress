@@ -1,0 +1,16 @@
+schema_version = "1.0.0"
+
+id = "perspress"
+version = "0.3.0"
+name = "PersPress"
+tagline = "Counter-perspective correction by camera-space depth remap"
+maintainer = "PersPress Project"
+type = "add-on"
+
+blender_version_min = "5.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+tags = ["Object", "Animation"]

@@ -1,0 +1,8 @@
+# アローリスト方式: 明示した対象以外はすべて非追跡
+/*
+!/.gitignore
+!/README.md
+!/perspress/
+
+# 追跡対象内の生成物
+perspress/__pycache__/
