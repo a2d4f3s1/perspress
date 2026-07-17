@@ -2,6 +2,8 @@
 
 広角レンズで生じるキャラクター頭部のパース歪みを、カメラ視線方向の深度リマップ（逆パース）で補正する Blender アドオンです。頭部だけ望遠レンズで撮ったような見た目にしつつ、背景や身体は広角のパースを保てます。
 
+![PersPress による補正の before/after と立方体フォールオフギズモ](docs/PersPress_top_001.png)
+
 ## 動作環境
 
 - Blender 5.2 LTS 以降
@@ -21,6 +23,8 @@
    - **Influence**: 効き（0–1。キーフレーム可）
    - **Falloff Start / End**: 補正 100% を維持する半径と、補正が 0 になる半径（首など、動かしたくない境界の内側で減衰を終わらせます）
    - アンカーを移動すると補正中心を微調整できます
+
+<img src="docs/PersPress_UI_001.png" alt="PersPress パネル" align="right" width="240">
 
 ### グループ管理（Groups リスト）
 
