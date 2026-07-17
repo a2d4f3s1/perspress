@@ -5,5 +5,10 @@
 !/LICENSE
 !/perspress/
 
+# docs は画像のみ追跡 (設計文書はローカル専用)
+!/docs/
+/docs/*
+!/docs/*.png
+
 # 追跡対象内の生成物
 perspress/__pycache__/
